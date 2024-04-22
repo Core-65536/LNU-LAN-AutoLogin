@@ -2,6 +2,6 @@
 
 ****重要提示：使用前请使用pip安装Requests库****
 
-****使用方法：首先使用CreateCFG创造你的账户信息，然后启动Net-Login****
+使用方法：首先使用CreateCFG创造你的账户信息，然后启动Net-Login
 
-****如果想要关闭程序可以使用Shudown发送终止信号****
+如果想要关闭程序可以使用Shudown发送终止信号
