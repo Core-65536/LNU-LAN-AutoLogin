@@ -56,8 +56,9 @@ def SignIn():
 
 def main():
     #判断日志文件是否过大
-    if os.stat('Net-Login.log').st_size > 1000 :
-        os.remove('Net-Login.log')
+    if os.access("Net-Login.log",os.R_OK):
+        if os.stat('Net-Login.log').st_size > 1000 :
+            os.remove('Net-Login.log')
     #初始化日志
     logging.basicConfig(
         format='%(asctime)s - %(levelname)s ----- %(message)s',
